@@ -29,6 +29,7 @@
 
 <style lang="scss" scoped>
 	#operator{
+		height: 450px;
 		grid-area: operator;
 		font-family: "Digital-Italic";
 		font-size: 2em;
