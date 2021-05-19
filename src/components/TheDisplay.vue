@@ -30,7 +30,7 @@
 		font-family: "Digital-Regular";
 		font-size: 6em;
 		padding: 10px;
-
+		border-bottom: 1px solid rgb( 255, 255, 255);
 		#data{
 			display: flex;
 			justify-content: flex-end;

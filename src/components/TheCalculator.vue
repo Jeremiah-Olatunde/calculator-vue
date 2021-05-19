@@ -75,12 +75,13 @@
 
 <style lang="scss" scoped>
 	#calculator{
-		width: 360px;
-		height: 570px;
+		width: 362px;
+		height: 572px;
 		background-color: rgb( 70, 70, 70, );
+		border: 1px solid rgb( 255, 255, 255 );
 		display: grid;
-		grid-template-columns: global.repeat( 90px, 4 );
-		grid-template-rows: 120px global.repeat( auto, 5 );
+		grid-template-columns: global.repeat( 90px, 4 );;
+		grid-template-rows: 119px global.repeat( auto, 5 );
 		grid-template-areas:
 			"display display display display"
 			"utility utility utility operator"
