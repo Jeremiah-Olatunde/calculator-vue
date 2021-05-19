@@ -7,3 +7,20 @@
 		}
 	}
 }
+
+
+@mixin position( $pos ){
+	@if $pos == center {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}@else if $pos == left {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+	}@else if $pos == right {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
+}

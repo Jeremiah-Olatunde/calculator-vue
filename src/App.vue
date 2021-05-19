@@ -14,7 +14,7 @@
 			</nav>
 		</div>
 		<section>
-			<the-calculator id="calculator"></the-calculator>
+			<the-calculator></the-calculator>
 		</section>
 	</header>
 </template>
@@ -33,8 +33,12 @@
 
 <style lang="scss">
 	// IMPORT FONTS 
+	@include global.import_fonts("Digital", ( "Regular" ));
 	@include global.import_fonts("Poppins", (
 		"Thin", "Medium", "Regular", "Bold"
+	));
+	@include global.import_fonts("Orbitron", (
+		"Medium", "Regular", "Bold"
 	));
 
 	// GENERAL STYLING
