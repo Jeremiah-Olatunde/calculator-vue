@@ -1,0 +1,13 @@
+
+// IMPORT FONTS 
+@include global.import_fonts("Poppins", (
+	"Thin", "Medium", "Regular", "Bold"
+));
+
+// GENERAL STYLING
+body{
+	background-color: rgb( 30, 30, 30 );
+	font-size: 16px;
+	font-family: "Poppins-Regular";
+	color: rgb( 255, 255, 255 );
+}
