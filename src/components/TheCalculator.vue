@@ -8,8 +8,8 @@
 	import TheDisplay from "./TheDisplay.vue";
 	export default {
 		data(){ return {
-			currData : 1234567,
-			prevData : 0,
+			currData : "0",
+			prevData : "0",
 		}},
 		components : {
 			TheDisplay,

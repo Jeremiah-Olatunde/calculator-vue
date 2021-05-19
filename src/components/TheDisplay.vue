@@ -10,11 +10,11 @@
 
 <script>
 	export default {
-		props : { data : Number, },
+		props : { data : String, },
 		computed : {
 			number(){
-				const str = String(this.data);
-				return str.length > 7 ? "MAX".split("") : str.split(""); 
+				return this.data.length > 7 ? "MAX".split("") 
+											: this.data.split(""); 
 			}
 		}
 	}
