@@ -33,7 +33,7 @@
 
 <style lang="scss">
 	// IMPORT FONTS 
-	@include global.import_fonts("Digital", ( "Regular" ));
+	@include global.import_fonts("Digital", ( "Regular", "Italic" ));
 	@include global.import_fonts("Poppins", (
 		"Thin", "Medium", "Regular", "Bold"
 	));
