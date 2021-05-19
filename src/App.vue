@@ -20,10 +20,14 @@
 </template>
 
 <script>
+	import TheCalculator from "./components/TheCalculator.vue";
 	export default {
 		data(){ return {
 			foo : 'bar',
 		}},
+		components : {
+			TheCalculator,
+		}
 	}
 </script>
 
@@ -70,10 +74,5 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		#calculator{
-			width: 360px;
-			height: 510px;
-			background-color: rgb( 70, 70, 70, );
-		}
 	}
 </style>

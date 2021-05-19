@@ -1,0 +1,6 @@
+
+@function repeat( $val, $times ){
+	$rtnList : ();
+	@for $itr from 0 to $times{ $rtnList : append( $rtnList, $val ); }
+	@return $rtnList;
+}
