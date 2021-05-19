@@ -3,7 +3,7 @@
 	@each $variant in $variants{
 		@font-face {
 			font-family: #{$font}-#{$variant};
-			src: url("../assets/fonts/#{$font}/#{$font}-#{$variant}.ttf");
+			src: url("./assets/fonts/#{$font}/#{$font}-#{$variant}.ttf");
 		}
 	}
 }
